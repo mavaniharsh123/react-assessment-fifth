@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 710px;
+  width: 100%;
+  background-image: linear-gradient(rgb(230, 173, 216), rgb(177, 75, 90), rgba(87, 196, 60, 0.445));
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headings{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: 900;
+  margin-left: 80px;
+  text-decoration: underline;
+}
+
+.table{
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+row1{
+  display: flex;
+
+}
+
+.student-btn{
+  height: 50px;
+  width: 300px;
+  font-size: x-large;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 76%;
+  background-color: cyan;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input{
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  height: 20px;
+  text-decoration: none;
+}
+
+.details{
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.back-btn{
+  height: 50px;
+  width: 300px;
+  margin-top: 30px;
+  font-size: x-large;
+  font-weight: 700;
+  background-color: cyan;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.update-btn{
+  height: 50px;
+  width: 300px;
+  margin-top: 30px;
+  font-size: x-large;
+  font-weight: 700;
+  background-color: cyan;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.field1{
+  width: 30%;
+}
+
+
+.field2{
+  width: 12%;
+  position: absolute;
+  top: 110px;
+  left: 865px;
+}
+
+
+.field3{
+  width: 30%;
+}
+
+
+.field4{
+  width: 12%;
+  position: absolute;
+  top: 170px;
+  left: 865px;
+}
+
